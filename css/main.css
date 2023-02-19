@@ -1,0 +1,58 @@
+/* 
+font-family: 'Fraunces', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+#c4a47c
+#fff
+#000000
+#604829
+#666
+#ACACAC
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./info.css);
+@import url(./contatos.css);
+@import url(./horarios.css);
+@import url(./rodape.css);
+
+:root {
+    --fonte-titulo: 'Fraunces', serif;
+    --fonte-paragrafo:  'Lato', sans-serif;
+    --fonte-links:  'Oswald', sans-serif;
+    --marrom-principal: #604829 ;
+    --marrom-claro: #c4a47c ;
+    --cinca-padrao: #666 ;
+    --cor-branco: #fff;
+    --cinza-claro: #ACACAC;
+    --preto-fosco: #000000 ;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.seta {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .seta {
+        display: block;
+        background: url(../assets/seta-para-cima.png) no-repeat;
+        position: fixed;
+        z-index: 1;
+        bottom: 10px;
+        right: 80px;
+        width: 90px;
+        height: 100px;
+    }
+    
+}
+
+

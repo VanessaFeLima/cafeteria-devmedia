@@ -1,0 +1,70 @@
+
+.container-texto {
+    font-family: var(--fonte-paragrafo);
+    padding: .5em ;
+    text-align: justify;
+}
+.conteudo-texto__titulo {
+    font-size: 1.3em;
+    color: var(--marrom-claro);
+    font-family: var(--fonte-links);
+}
+.conteudo-texto {
+    line-height: 1.4em;
+    font-size: 0.8em;
+    font-weight: 400;
+    padding: 0.6em;
+
+}
+.titulo {
+    font-size: 0.9em;
+    background-color: var(--marrom-principal);
+    font-family: var(--fonte-links);
+    padding: 3px 1.5em;
+    font-style: italic;
+    color: var(--cor-branco);
+}
+.fundo__parallax2 {
+    background: url(../assets/parallax-imagem2.jpg) no-repeat;
+
+}
+.fundo__parallax3 {
+    background: url(../assets/parallax-imagem3.jpg) no-repeat;
+
+}
+.fundo__parallax2, .fundo__parallax3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media screen and (min-width: 768px) {
+    .container-texto {
+        padding: 3em 20% ;
+        text-align: center;
+    }
+    .titulo {
+        font-weight: 100;
+        font-size: 1.3em;
+        letter-spacing: 3px;
+        word-spacing: 6px;
+    }
+    .conteudo-texto {
+        line-height: 1.2em;
+        font-size: 1.3em;
+        font-weight: 400;
+    
+    }
+    .conteudo-texto__titulo {
+        font-size: 1.9em;
+    }
+    
+
+}
+
+
+

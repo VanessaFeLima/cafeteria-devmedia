@@ -1,0 +1,60 @@
+.horarios {
+    padding: 1.6em 1em;
+    background: url(../assets/cafeteria.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--cor-branco);
+    
+}
+.horario-titulo {
+    text-align: center;
+    padding: 1.5em 0;
+}
+.horario-lista {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: var(--preto-foscp);
+    text-align: justify;
+}
+.lista-item div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.borda {
+    width: 7em;
+    height: 0.2px;
+    background-color: var(--cor-branco);
+}
+div p {
+    display: block;
+}
+#close {
+    color: var(--marrom-claro);
+    text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+    .horarios {
+        font-size: 1.2em;
+        padding: 1.9em;
+    }
+    .borda {
+        width: 20em;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .horarios {
+        font-size: 1.5em;
+        width: 100vw;
+    }
+    .lista-item {
+        padding: 0 15em;
+    }
+    li div .borda {
+        width: 30em;
+    }
+}
+
+
